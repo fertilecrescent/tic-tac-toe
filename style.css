@@ -1,11 +1,68 @@
 
-.the-board {
-    text-align: center;
+:root {
+    --square-border: 3px solid black;
+    --square-size: 70px;
+}
+
+.board-container {
+    margin: auto;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
 }
 
 .square {
-    background-color: green;
-    width: 50px;
-    height: 50px;
-    display: inline-block;
+    width: var(--square-size);
+    height: var(--square-size);
+}
+
+.top-left-square {
+    border-bottom: var(--square-border);
+}
+
+.top-middle-square {
+    border-left: var(--square-border);
+    border-bottom: var(--square-border);
+    border-right: var(--square-border);
+}
+
+.top-right-square {
+    border-bottom: var(--square-border);
+}
+
+.middle-left-square {
+
+}
+
+.middle-middle-square {
+    border-left: var(--square-border);
+    border-right: var(--square-border);
+}
+
+.middle-right-square {
+
+}
+
+.bottom-left-square {
+    border-top: var(--square-border);
+}
+
+.bottom-middle-square {
+    border-left: var(--square-border);
+    border-top: var(--square-border);
+    border-right: var(--square-border);
+}
+
+.bottom-right-square {
+    border-top: var(--square-border);
 }
