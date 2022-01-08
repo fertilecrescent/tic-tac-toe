@@ -24,6 +24,11 @@ table {
 .square {
     width: var(--square-size);
     height: var(--square-size);
+    text-align: center;
+}
+
+.square:hover {
+    cursor: pointer;
 }
 
 .top-left-square {
