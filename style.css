@@ -4,6 +4,14 @@
     --square-size: 70px;
 }
 
+.winner-display {
+    visibility: hidden;
+    margin-top: 150px;
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+}
+
 .board-container {
     margin: auto;
 }
@@ -18,13 +26,15 @@ table {
     border-collapse: collapse;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 
 .square {
     width: var(--square-size);
     height: var(--square-size);
     text-align: center;
+    font-size: 25px;
+    font-family: monospace;
 }
 
 .square:hover {
