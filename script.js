@@ -129,6 +129,7 @@ function whenSquareIsClicked(e) {
         if (x_turn) {
             e.target.innerHTML = 'X'
             updateBoardData(e.target.className, 'X')
+            e.target.classList.add('animate')
         } else {
             e.target.innerHTML = 'O'
             updateBoardData(e.target.className, 'O')

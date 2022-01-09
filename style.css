@@ -39,6 +39,7 @@ table {
 
 .square:hover {
     cursor: pointer;
+    background-color: #BBBBBB;
 }
 
 .top-left-square {
